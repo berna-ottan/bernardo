@@ -1,0 +1,2 @@
+# bernardo
+ibmec programação estruturada 
