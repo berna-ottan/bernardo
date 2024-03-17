@@ -19,5 +19,6 @@ bissexto(1900)
 
 def calcula_salario(valor_hora, num_horas, irpf=0.275):
     valorbruto = valor_hora * num_horas
-    impostoderenda = valorbruto * irpf
-    print (valorbruto - impostoderenda)
+    imposto_de_renda = valorbruto * irpf
+    print (valorbruto - imposto_de_renda)
+calcula_salario(10, 500)
